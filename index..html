@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Shield | Phishing Detector & Awareness Portal</title>
+   
+      <link rel="stylesheet" href="stayl.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🛡️ Cyber Shield Portal</h1>
+        <p>GTU SBTP - 2026 | Phishing Detection & Cyber Awareness Utility</p>
+    </header>
+
+    <div class="section">
+        <h2>🔍 1. Live URL / Link Scanner</h2>
+        <p class="description">Paste any suspicious link (URL) you received via Email, SMS, or WhatsApp into the box below to scan it:</p>
+        
+        <div class="input-group">
+            <input type="text" id="urlInputField" placeholder="Paste your link here (e.g., http://free-crypto-bonus.com)...">
+            <button onclick="analyzeLink()">Scan Link</button>
+        </div>
+
+        <div id="detectionOutput" class="result-box"></div>
+    </div>
+
+    <div class="section">
+        <h2>💡 2. Essential Cyber Security Tips</h2>
+        <ul class="tips-list">
+            <li>
+                <strong>🔐 Multi-Factor Authentication (MFA)</strong>
+                Always enable Two-Factor Verification (2FA) on your Email, Instagram, and Banking accounts. Even if your password is stolen, your account remains secure.
+            </li>
+            <li>
+                <strong>🌐 Verify HTTP vs HTTPS</strong>
+                Whenever you open a website, check if it starts with 'https://' and displays a Padlock symbol. Never enter personal details on websites that use only 'http://'.
+            </li>
+            <li>
+                <strong>⚠️ Beware of Urgency Scams</strong>
+                Messages creating fear and panic—such as "Your SIM card will be blocked" or "Your electricity connection will be disconnected tonight"—demanding immediate link clicks are always fraudulent.
+            </li>
+            <li>
+                <strong>🛑 Fake Lotteries and Free Gift Links</strong>
+                Phishing links claiming "You won a $10,000 lottery" or offering "Free high-end smartphones" are traps designed to hack your phone or drain your bank account.
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Developed for GTU SBTP - Subject Code: DI05000011 | VPMP Polytechnic</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
