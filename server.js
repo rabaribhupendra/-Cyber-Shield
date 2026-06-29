@@ -17,7 +17,7 @@ app.use(express.static(__dirname));
 
 // Home Page
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "index..html"));
+    res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // API for URL Analysis
